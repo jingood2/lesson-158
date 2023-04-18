@@ -21,7 +21,7 @@ spec:
           # - Each init container must complete successfully before the next one starts.
       containers:
       - name:  nginx 
-        image:  ghcr.io/jingood2/nginx:v0.1.0
+        image:  ghcr.io/jingood2/nginx:v0.1.1
         ports:
         - containerPort:  80
           name:  nginx 
