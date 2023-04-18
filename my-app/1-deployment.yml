@@ -21,7 +21,7 @@ spec:
           # - Each init container must complete successfully before the next one starts.
       containers:
       - name:  nginx 
-        image:  aputra/nginx:v0.1.0
+        image:  nginx
         ports:
         - containerPort:  80
           name:  nginx 
