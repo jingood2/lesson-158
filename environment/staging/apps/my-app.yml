@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/jingood2/lesson-158.git
     targetRevision: HEAD
-    path: my-app
+    path: environment/staging/apps/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
