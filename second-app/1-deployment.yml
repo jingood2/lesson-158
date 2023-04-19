@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name:  nginx 
-  namespace: foo
+  namespace: bar
   labels:
     app:  nginx 
 spec:
@@ -21,7 +21,7 @@ spec:
           # - Each init container must complete successfully before the next one starts.
       containers:
       - name:  nginx 
-        image:  ghcr.io/jingood2/nginx:v0.1.3
+        image:  ghcr.io/jingood2/nginx:v0.1.1
         ports:
         - containerPort:  80
           name:  nginx 
